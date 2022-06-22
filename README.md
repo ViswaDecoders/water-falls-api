@@ -9,10 +9,10 @@ Heroku link: https://backend-waterfall-api.herokuapp.com/falls
  - curl -X POST -H "content-type:application/json" -d '{"name":"Dudhsagar Falls","place":"Goa"}' https://backend-waterfall-api.herokuapp.com/falls
 
 ***Get :***
-- curl -X GET https://backend-waterfall-api.herokuapp.com/falls/
-- curl -X GET https://backend-waterfall-api.herokuapp.com/falls/delete
-- curl -X GET https://backend-waterfall-api.herokuapp.com/falls/delete/<id>
-- curl -X GET https://backend-waterfall-api.herokuapp.com/falls/<id>
+- curl -X GET https://backend-waterfall-api.herokuapp.com/falls/             <----- list all data
+- curl -X GET https://backend-waterfall-api.herokuapp.com/falls/delete       <----- delete the collection 
+- curl -X GET https://backend-waterfall-api.herokuapp.com/falls/delete/<id>  <----- deletion of record in collection by id
+- curl -X GET https://backend-waterfall-api.herokuapp.com/falls/<id>         <----- item by id
 
 ### ---- Windows ----
 ***Post :***
